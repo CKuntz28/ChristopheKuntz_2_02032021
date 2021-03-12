@@ -1,2 +1,345 @@
-Css
+/*----------------------------------------Head------------------------------------------------*/
+*
+{
+   font-family : 'Raleway', sans-serif; 
+
+}
+
+
+
+/* ---------------------------------------Body--------------------------------------------*/
+#bloc_page
+{
+    background-color: #FFFFFF;
+    width: 900px;
+    margin: 15px;
+
+}
+
+
+
+/*-----------------------------------------Header----------------------------------------------*/
+
+.Baniere
+{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr auto auto auto;
+    grid-template-areas: "logo . navbar button";
+    
+}
+
+
+.IMG-logo
+{
+    height: 40px;
+    padding: 1em;
+    grid-area: logo;
+    grid-row-start: logo;
+    grid-column-start: logo;
+    grid-row-end: logo;
+    grid-column-end: logo;
+
+}
+
+a 
+{
+    color: black;
+    text-decoration: none;
+    padding: 1em;
+    
+}
+
+.NAV1
+{
+    display: flex;
+    align-items: center;
+    grid-area: navbar;
+
+}
+
+
+
+.Nav-Hebergement
+{
+    padding: 2rem;
+    font-weight: 500;
+    text-align: center;
+    transition-duration: 0.1s;
+    border-top: 3px transparent solid;
+    border-bottom: 3px transparent solid
+    
+}
+
+.Nav-Inscription
+{
+    color: #0065FC;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    grid-area: button;
+    padding: 2rem;
+    font-weight: 600;
+
+}
+
+/*----------------------------------------Filtres--------------------------------------------*/
+
+
+/*----------------------------------------Recherche--------------------------------------------*/
+
+
+
+.Info
+{
+    float: left; 
+    width: 30px;
+    height: 30px;
+    background-color: #DEEBFF;
+    border-radius: 10px 0px 0px 10px;
+    padding: 10px 0px 0px 10px;
+    color: black
+
+}
+
+.Recherche input 
+{
+    height: 3em;
+    border-left: 0em;
+    border-color: rgba(128, 128, 128, 0.151);
+
+}
+
+.Bouton
+{
+    color: #FFFFFF;
+    background-color: #0065FC;
+    width: 100px;
+    border-radius: 0px 10px 10px 0px;
+    padding: 0px 0px 0px 15px;
+    font-size: 0.5em;
+    display: inline-block;
+}
+
+
+.Titre-filtre
+{
+    font-size: 0.7em;
+    display: inline-block;
+    
+}
+
+
+
+
+.Money
+{
+    float: left; 
+    width: 29px;
+    height: 29px;
+    
+    background-color: #DEEBFF;
+    border-radius: 30px 30px 30px 30px;
+    padding: 15px 15px 15px 15px;
+    margin-block: 20px;
+    color: #0065FC   
+
+}
+
+.Economique
+{
+    color:black;
+    background-color: #FFFFFF;
+    width: 100px;
+    border-radius: 30px 30px 30px 30px;
+    border: 2px rgba(128, 128, 128, 0.199) solid;
+    margin-block: 20px;
+    padding: 0px 0px 0px 50px;
+    font-size: 0.6em;
+    
+    
+
+}
+
+.child
+{
+    float: left; 
+    width: 29px;
+    height: 29px;
+    background-color: #DEEBFF;
+    border-radius: 30px 30px 30px 30px;
+    margin-block: 20px;
+    padding: 15px 0px 0px 15px;
+    color: #0065FC
+    
+}
+
+.Familial
+{
+    color:black;
+    background-color: #FFFFFF;
+    width: 70px;
+    border-radius: 30px 30px 30px 30px;
+    border: 2px rgba(128, 128, 128, 0.199) solid;
+    margin-block: 20px;
+    padding: 0px 0px 0px 50px;
+    font-size: 0.6em;
+
+    
+
+}
+
+.coeur
+{
+    float: left; 
+    width: 29px;
+    height: 29px;
+    background-color: #DEEBFF;
+    border-radius: 30px 30px 30px 30px;
+    margin-block: 20px;
+    padding: 15px 0px 0px 15px;
+    color: #0065FC
+
+}
+
+.Romantique
+{
+    color: black;
+    background-color: #FFFFFF;
+    width: 100px;
+    border-radius: 30px 30px 30px 30px;
+    border: 2px rgba(128, 128, 128, 0.199) solid;
+    margin-block: 20px;
+    padding: 0px 0px 0px 50px;
+    font-size: 0.6em;
+
+   
+
+}
+
+.chient
+{
+    float: left; 
+    width: 29px;
+    height: 29px;
+    background-color: #DEEBFF;
+    border-radius: 30px 30px 30px 30px;
+    margin-block: 20px;
+    padding: 15px 0px 0px 15px;
+    color: #0065FC
+}
+
+.dog
+{
+    color: black;
+    background-color: #FFFFFF;
+    width: 140px;
+    border-radius: 30px 30px 30px 30px;
+    border: 2px rgba(128, 128, 128, 0.199) solid;
+    margin-block: 20px;
+    padding: 0px 0px 0px 50px;
+    font-size: 0.6em;
+    
+}
+.M
+{
+    display: inline-block;
+    margin: 10px;
+}
+.C
+{
+    display: inline-block;
+    margin: 10px;
+}
+
+.CO
+{
+    display: inline-block;
+    margin: 10px;
+}
+.D 
+{
+    display: inline-block;
+    margin: 10px;
+}
+
+
+
+/* -----------------------------------Section Populaire--------------------------------- */
+#populaire
+
+{ 
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding: 10px;
+    width: 450px;      
+}
+
+
+.image2
+{
+    height: 150px; 
+    width: 150px;
+    margin: 15px;   
+    border-radius: 20px 20px 20px 20px;
+    background-color: #FFFFFF;
+    padding: 6px 250px 6px 6px;
+    box-shadow: 1px 2px 6px rgb(160, 160, 160);
+    
+}
+
+.image3
+{
+   height: 150px; 
+   width: 150px;
+   margin: 15px;
+   border-radius: 20px 20px 20px 20px;
+   background-color: #FFFFFF;
+   padding: 6px 250PX 6px 6px;
+   box-shadow: 1px 2px 6px rgb(190, 190, 190);
+}
+
+
+.image1
+{
+    
+    height: 150px;
+    width: 150px;
+    margin: 15px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #FFFFFF;
+    padding: 6px 250px 6px 6px;  
+    box-shadow: 1px 2px 6px rgb(190, 190, 190);
+        
+}
+
+
+
+.etoiles
+{
+    
+    float: right;
+    text-align: justify;
+    position: absolute;
+
+}
+
+/* -----------------------------------Section Herbergements--------------------------------- */
+
+
+
+
+
+/* -----------------------------------Section Activites------------------------------------- */
+
+
+
+
+
+/* ------------------------------------Footer------------------------------------------------ */
+
+
+
+
+
 
