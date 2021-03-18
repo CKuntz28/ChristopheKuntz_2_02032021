@@ -12,7 +12,7 @@
 {
     background-color: #FFFFFF;
     margin: 15px;
-
+    margin-left: 30px;
 }
 
 .dimention
@@ -38,7 +38,7 @@
 {
     height: 40px;
     padding: 1em;
-    margin-right: 700px;
+    margin-right: 660px;
 }
 
 a 
@@ -121,11 +121,8 @@ a:hover
 {
     font-size: 1em;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 35px;
 }
-
-
-/*----------------------------------------Filtres--------------------------------------------*/
 
 
 /*----------------------------------------Recherche--------------------------------------------*/
@@ -143,7 +140,7 @@ a:hover
     justify-content: center;
     align-items: center;
     background-color: #DEEBFF;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 15px 0px 0px 15px;
     width: 45px;
     height: 45px;
     color:black;
@@ -153,7 +150,7 @@ a:hover
 
 .Recherche input 
 {
-    height: 3.35em;
+    height: 3.4em;
     border-left: 0em;
     border-color: rgba(128, 128, 128, 0.151);
     
@@ -163,8 +160,8 @@ a:hover
 {
     color: #FFFFFF;
     background-color: #0065FC;
-    width: 100px;
-    border-radius: 0px 10px 10px 0px;
+    width: 130px;
+    border-radius: 0px 15px 15px 0px;
     align-items: center;
     height: 45px;
     cursor: pointer;
@@ -185,14 +182,13 @@ a:hover
 .Titre-filtre
 {
     margin-right: 20px;
-
 }
 
 
 .F
 {
     height: 50px;
-    margin: 10px 20px 10px 0;
+    margin: 20px 20px 20px 0;
     padding-right: 20px;
     border: 2px solid #f2f2f2;
     border-radius: 50px;
@@ -218,8 +214,8 @@ a:hover
 {
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
-    margin-top: 8px;
+    margin-bottom: 30px;
+    margin-top: 10px;
 }
 
 .Text-info i
@@ -254,8 +250,24 @@ a:hover
     /* float: left; */
     display: flex; 
     flex-wrap: wrap;
-    margin: 0px 50px 20px 0px;
+    margin: 0px 40px 20px 0px;
  
+}
+
+.colorB
+{
+    color: #0065FC;
+ font-size: 12px;   
+
+
+}
+
+.colorG
+{
+    color: #F2F2F2;
+ font-size: 12px;   
+
+
 }
 
 .H
@@ -285,7 +297,7 @@ a:hover
     background-color: #FFFFFF;
     padding: 6px 6px 60px 6px;  
     box-shadow: 1px 2px 6px rgb(190, 190, 190);
-
+    object-fit: cover;
 }
 
 .image5
@@ -297,7 +309,7 @@ a:hover
     background-color: #FFFFFF;
     padding: 6px 6px 60px 6px;  
     box-shadow: 1px 2px 6px rgb(190, 190, 190);
-
+    object-fit: cover;
 }
 
 .image6
@@ -309,7 +321,7 @@ a:hover
     background-color: #FFFFFF;
     padding: 6px 6px 60px 6px;  
     box-shadow: 1px 2px 6px rgb(190, 190, 190);
-
+    object-fit: cover;
 }
 
 .image7
@@ -321,7 +333,7 @@ a:hover
     background-color: #FFFFFF;
     padding: 6px 6px 60px 6px;  
     box-shadow: 1px 2px 6px rgb(190, 190, 190);
-
+    object-fit: cover;
 }
 
 .image8
@@ -333,7 +345,7 @@ a:hover
     background-color: #FFFFFF;
     padding: 6px 6px 60px 6px;  
     box-shadow: 1px 2px 6px rgb(190, 190, 190);
-   
+    object-fit: cover;
     
 }
 
@@ -346,20 +358,22 @@ a:hover
     background-color: #FFFFFF;
     padding: 6px 6px 60px 6px;  
     box-shadow: 1px 2px 6px rgb(190, 190, 190);
-   
+    object-fit: cover;
 }
 
 .etoile-H
 {
     position: absolute;
-    margin: 101px 0px 0px 25px;
+    margin: 110px 0px 0px 25px;
 }
 
-.etoile-H h5
+.etoile-H p
 {
-    margin-bottom: 1px;
+    font-size: 0.85em;
+    margin-bottom: 2px;
 
 }
+
 
 @media screen and (max-width:768px)
 {
@@ -373,7 +387,7 @@ a:hover
         background-color: #FFFFFF;
         padding: 6px 6px 60px 6px;  
         box-shadow: 1px 2px 6px rgb(190, 190, 190);
-    
+        object-fit: cover;
     }
 
     .image5 
@@ -385,7 +399,7 @@ a:hover
         background-color: #FFFFFF;
         padding: 6px 6px 60px 6px;  
         box-shadow: 1px 2px 6px rgb(190, 190, 190);
-    
+        object-fit: cover;
     }
     .image6
     {
@@ -396,7 +410,7 @@ a:hover
         background-color: #FFFFFF;
         padding: 6px 6px 60px 6px;  
         box-shadow: 1px 2px 6px rgb(190, 190, 190);
-    
+        object-fit: cover;
     }
 
     .image7
@@ -408,7 +422,7 @@ a:hover
         background-color: #FFFFFF;
         padding: 6px 6px 60px 6px;  
         box-shadow: 1px 2px 6px rgb(190, 190, 190);
-    
+        object-fit: cover;
     }
 
     .image8 
@@ -420,7 +434,7 @@ a:hover
         background-color: #FFFFFF;
         padding: 6px 6px 60px 6px;  
         box-shadow: 1px 2px 6px rgb(190, 190, 190);
-    
+        object-fit: cover;
     }
     .image9
     {
@@ -431,7 +445,7 @@ a:hover
         background-color: #FFFFFF;
         padding: 6px 6px 60px 6px;  
         box-shadow: 1px 2px 6px rgb(190, 190, 190);
-    
+        object-fit: cover;
     }
 }
 
@@ -470,7 +484,7 @@ a:hover
     background-color: #FFFFFF;
     padding: 6px 200px 6px 6px;
     box-shadow: 1px 2px 6px rgb(160, 160, 160);
-    
+    object-fit: cover;
 }
 
 .image3
@@ -482,6 +496,7 @@ a:hover
    background-color: #FFFFFF;
    padding: 6px 200PX 6px 6px;
    box-shadow: 1px 2px 6px rgb(190, 190, 190);
+   object-fit: cover;
 }
 
 
@@ -495,7 +510,7 @@ a:hover
     background-color: #FFFFFF;
     padding: 6px 200px 6px 6px;  
     box-shadow: 1px 2px 6px rgb(190, 190, 190);
-        
+    object-fit: cover;    
 }
 
 .etoiles1
@@ -510,7 +525,15 @@ a:hover
 .etoiles p
 {
     margin-top: 7px;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
 
+.etoiles1 p
+{
+    margin-top: 15px;
+    font-size: 14px;
+    margin-bottom: 30px;
 }
 
 
@@ -529,6 +552,9 @@ a:hover
  margin: 0px 0px 0px 0px;
 
 }
+
+
+
 
 /* -----------------------------------Section Activites------------------------------------- */
 .ActiviteMarseille
@@ -604,7 +630,7 @@ margin: 110px 0px 0px 25px;
     background-color: #FFFFFF;
     padding: 0px 0px 50px 0px;  
     box-shadow: 1px 2px 6px rgb(190, 190, 190);
-   
+    object-fit: cover;
 }
 
 .image11
@@ -616,7 +642,7 @@ margin: 110px 0px 0px 25px;
     background-color: #FFFFFF;
     padding: 0px 0px 50px 0px;  
     box-shadow: 1px 2px 6px rgb(190, 190, 190);
-   
+    object-fit: cover;
 }
 
 .image12
@@ -628,7 +654,7 @@ margin: 110px 0px 0px 25px;
     background-color: #FFFFFF;
     padding: 0px 0px 50px 0px;  
     box-shadow: 1px 2px 6px rgb(190, 190, 190);
-   
+    object-fit: cover;
 }
 
 .image13
@@ -640,7 +666,7 @@ margin: 110px 0px 0px 25px;
     background-color: #FFFFFF;
     padding: 0px 0px 50px 0px;  
     box-shadow: 1px 2px 6px rgb(190, 190, 190);
-   
+    object-fit: cover;
 }
 
 .image14
@@ -648,11 +674,12 @@ margin: 110px 0px 0px 25px;
     height: 150px;
     width: 260px;
     margin: 15px;
+    margin-right: 0px;
     border-radius: 20px 20px 20px 20px;
     background-color: #FFFFFF;
     padding: 0px 0px 50px 0px;  
     box-shadow: 1px 2px 6px rgb(190, 190, 190);
-   
+    object-fit: cover;
 }
 
 .image15
@@ -660,11 +687,12 @@ margin: 110px 0px 0px 25px;
     height: 100px;
     width: 260px;
     margin: 15px;
+    margin-right: 0px;
     border-radius: 20px 20px 20px 20px;
     background-color: #FFFFFF;
     padding: 0px 0px 50px 0px;  
     box-shadow: 1px 2px 6px rgb(190, 190, 190);
-   
+    object-fit: cover;
 }
 
 @media screen and (max-width:768px)
@@ -701,7 +729,7 @@ margin: 110px 0px 0px 25px;
 
 .Footer p
 {
-font-size: 0.8em;
+    font-size: 0.8em;
 
 }
 
@@ -711,9 +739,14 @@ font-size: 0.8em;
     .Inti
     {
         padding-left: 20px;
-    
+        width: 80%;
     }
-
+    .Footer
+    {
+        width: 300px;
+        height: 500px;
+        padding-right:0px;
+    }
 
 
 }
