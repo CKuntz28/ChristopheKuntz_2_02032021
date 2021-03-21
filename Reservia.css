@@ -15,12 +15,6 @@
     margin-left: 30px;
 }
 
-.dimention
-{
-
-
-}
-
 
 
 /*-----------------------------------------Header----------------------------------------------*/
@@ -38,14 +32,13 @@
 {
     height: 40px;
     padding: 1em;
-    margin-right: 660px;
+    margin-right: 450px;
 }
 
 a 
 {
     color: gray;
     text-decoration: none;
-    /* padding: 1em; */
     
 }
 
@@ -61,37 +54,11 @@ a:hover
     align-items: center;
 }
 
-
-
-
-
-@media screen and (max-width:768px)
-{
-    .IMG-logo
-    {
-        margin-right: 40px;
-
-    }
-    .NAV1
-    {
-        order: 3;
-    }
-
-    .Nav-Inscription 
-    {
-        order: 2;
-    }
-    .Baniere 
-    {
-        flex-wrap: wrap;
-
-    }
-   
-}
-
 .Nav-Hebergement
 {
     padding: 2rem;
+    padding-right: 5rem;
+    padding-left: 6rem;
     text-align: center;
     border-top: 3px transparent solid;
     border-bottom: 3px transparent solid
@@ -125,13 +92,57 @@ a:hover
 }
 
 
+@media screen and (max-width:768px)
+{
+   
+    
+        .Nav-Hebergement:hover
+    {
+        border-top:none;
+        border-bottom: 3px #0065FC solid;
+    }
+
+    .IMG-logo
+    {
+        margin-right: 350px;
+        height: 60px;
+    }
+    .NAV1
+    {
+        order: 3;
+    }
+
+    .Nav-Inscription 
+    {
+        order: 2;
+    }
+
+    .Baniere 
+    {
+        flex-wrap: wrap;
+
+    }
+
+    a 
+    {
+       font-size: 1.5em;    
+    }
+
+    .trouve
+    {
+        font-size: 1.3em;
+        margin-top: 10px;
+        margin-bottom: 35px;
+    }
+
+}
+
+
+
 /*----------------------------------------Recherche--------------------------------------------*/
 
 
-.Recherche button
-{
-    /* font: bold; */
-}
+
 
 .Info i 
 {
@@ -167,9 +178,16 @@ a:hover
     cursor: pointer;
     display: inline-block;
     border: 0;
-
+    /* position: absolute; */
 
 }
+
+.Bouton2
+{
+    color:transparent;
+    
+}
+
 
 .filtre
 {
@@ -231,6 +249,102 @@ a:hover
     margin-right: 10px;
  
 }
+
+
+.Eco:hover
+{
+    color:#0065FC;
+    font-style: italic;
+}
+.Fam:hover
+{
+    color:#0065FC;
+    font-style: italic;
+}
+.Rom:hover
+{
+    color:#0065FC;
+    font-style: italic;
+}
+.Ani:hover
+{
+    color:#0065FC;
+    font-style: italic;
+}
+@media screen and (max-width:768px)
+{
+    .F
+    {
+        height: 50px;
+        margin: 20px 100px 20px 0;
+        padding-right: 20px;
+        border: 2px solid #f2f2f2;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+    
+    }
+    .Titre-filtre 
+    {
+        margin-right: 500px;
+    }
+
+    .Info i 
+    {
+        float: left; 
+        display: flex;   
+        justify-content: center;
+        align-items: center;
+        background-color: #DEEBFF;
+        border-radius: 15px 0px 0px 15px;
+        width: 60px;
+        height: 60px;
+        color:black;
+        
+    
+    }
+
+
+    .Recherche input 
+    {
+        height: 4.5em;
+        width: 18em;
+        border-left: 0em;
+        border-color: rgba(128, 128, 128, 0.151);
+        
+    }
+     
+
+     .Bouton 
+     {
+            color: transparent;
+            background-color: #0065fc;
+            width: 20px;
+            border-radius: 0px 15px 15px 0px;
+            align-items: center;
+            height: 60px;
+            cursor: pointer;
+            display: inline-block;
+            border: 0;
+            position: absolute;
+            
+    }
+
+    .Bouton2
+    {
+        color: #FFFFFF;
+        padding-left: 23px;
+        background-color: #0065FC;
+        padding-right: 23px;
+        padding-top: 20px;
+        padding-bottom: 22px;
+        border-radius: 0px 15px 15px 0px;
+    }
+     
+     
+}
+
+
 /* -----------------------------------Section Herbergements--------------------------------- */
 
 .HEBERG
@@ -246,8 +360,6 @@ a:hover
     padding: 20px;
     border-radius: 20px;
     width: 735px; 
-    /* height: 1600px; */
-    /* float: left; */
     display: flex; 
     flex-wrap: wrap;
     margin: 0px 40px 20px 0px;
@@ -257,7 +369,7 @@ a:hover
 .colorB
 {
     color: #0065FC;
- font-size: 12px;   
+    font-size: 12px;   
 
 
 }
@@ -265,7 +377,7 @@ a:hover
 .colorG
 {
     color: #F2F2F2;
- font-size: 12px;   
+    font-size: 12px;   
 
 
 }
@@ -378,75 +490,126 @@ a:hover
 @media screen and (max-width:768px)
 {
 
+
+    .hebergement
+    {
+        background-color:  #F2F2F2;
+        padding: 20px;
+        border-radius: 20px;
+        width: 720px; 
+        display: flex; 
+        flex-wrap: wrap;
+        margin: 0px 20px 20px 0px;
+ 
+    }
+
+        .colorB
+    {
+        color: #0065FC;
+        font-size: 24px;   
+
+
+    }
+
+        .colorG
+    {
+        color: #F2F2F2;
+        font-size: 24px;   
+
+
+    }
+
+        .H
+    {
+        width: 81%;
+        padding-left: 20px;
+        margin-bottom: 1px;
+        margin-top: 1px;
+        font-size: 1.90em;
+    }
+
     .image4 
     {
-        height: 100px;
-        width: 300px;
+        height: 230px;
+        width: 600px;
         margin: 15px;
         border-radius: 20px 20px 20px 20px;
         background-color: #FFFFFF;
-        padding: 6px 6px 60px 6px;  
+        padding: 8px 8px 118px 8px;  
         box-shadow: 1px 2px 6px rgb(190, 190, 190);
         object-fit: cover;
     }
 
     .image5 
     {
-        height: 100px;
-        width: 300px;
+        height: 230px;
+        width: 600px;
         margin: 15px;
         border-radius: 20px 20px 20px 20px;
         background-color: #FFFFFF;
-        padding: 6px 6px 60px 6px;  
+        padding: 8px 8px 118px 8px;  
         box-shadow: 1px 2px 6px rgb(190, 190, 190);
         object-fit: cover;
     }
     .image6
     {
-        height: 100px;
-        width: 300px;
+        height: 230px;
+        width: 600px;
         margin: 15px;
         border-radius: 20px 20px 20px 20px;
         background-color: #FFFFFF;
-        padding: 6px 6px 60px 6px;  
+        padding: 8px 8px 118px 8px;  
         box-shadow: 1px 2px 6px rgb(190, 190, 190);
         object-fit: cover;
     }
 
     .image7
     {
-        height: 100px;
-        width: 300px;
+        height: 230px;
+        width: 600px;
         margin: 15px;
         border-radius: 20px 20px 20px 20px;
         background-color: #FFFFFF;
-        padding: 6px 6px 60px 6px;  
+        padding: 8px 8px 118px 8px; 
         box-shadow: 1px 2px 6px rgb(190, 190, 190);
         object-fit: cover;
     }
 
     .image8 
     {
-        height: 100px;
-        width: 300px;
+        height: 230px;
+        width: 600px;
         margin: 15px;
         border-radius: 20px 20px 20px 20px;
         background-color: #FFFFFF;
-        padding: 6px 6px 60px 6px;  
+        padding: 8px 8px 118px 8px; 
         box-shadow: 1px 2px 6px rgb(190, 190, 190);
         object-fit: cover;
     }
     .image9
     {
-        height: 100px;
-        width: 300px;
+        height: 230px;
+        width: 600px;
         margin: 15px;
         border-radius: 20px 20px 20px 20px;
         background-color: #FFFFFF;
-        padding: 6px 6px 60px 6px;  
+        padding: 8px 8px 118px 8px;  
         box-shadow: 1px 2px 6px rgb(190, 190, 190);
         object-fit: cover;
     }
+    .etoile-H
+{
+    position: absolute;
+    margin: 233px 0px 0px 25px;
+}
+
+    .etoile-H p
+    {
+        font-size: 1.7em;
+        margin-bottom: 13px;
+
+    }
+
 }
 
 
@@ -468,10 +631,11 @@ a:hover
 
 .LPP
 {
-    margin-right: 100px;
+    margin-right: 90px;
      margin-bottom: 20px;
      margin-top: 1px;
     float: left;
+    
 }
 
 
@@ -482,7 +646,7 @@ a:hover
     margin-bottom: 20px;
     border-radius: 20px 20px 20px 20px;
     background-color: #FFFFFF;
-    padding: 6px 200px 6px 6px;
+    padding: 6px 200px 6px 6px;  
     box-shadow: 1px 2px 6px rgb(160, 160, 160);
     object-fit: cover;
 }
@@ -494,7 +658,7 @@ a:hover
    margin-bottom: 20px;
    border-radius: 20px 20px 20px 20px;
    background-color: #FFFFFF;
-   padding: 6px 200PX 6px 6px;
+   padding: 6px 200px 6px 6px;   
    box-shadow: 1px 2px 6px rgb(190, 190, 190);
    object-fit: cover;
 }
@@ -508,7 +672,7 @@ a:hover
    margin-bottom: 20px;
     border-radius: 20px 20px 20px 20px;
     background-color: #FFFFFF;
-    padding: 6px 200px 6px 6px;  
+    padding: 6px 200px 6px 6px;   
     box-shadow: 1px 2px 6px rgb(190, 190, 190);
     object-fit: cover;    
 }
@@ -553,6 +717,112 @@ a:hover
 
 }
 
+.colorN
+{
+    font-size: 15px;
+
+}
+
+@media screen and (max-width:768px)
+{
+    #populaire
+
+    { 
+        background-color: #F2F2F2;
+        border-radius: 20px;
+        padding: 20px;
+        width: 650px; 
+        height: 950px;     
+    }
+
+    .image2
+    {
+        height: 250px; 
+        width: 250px;
+        margin-bottom: 20px;
+        margin-left:15px;
+        border-radius: 20px 20px 20px 20px;
+        background-color: #FFFFFF;
+        padding: 8px 360px 8px 8px;
+        box-shadow: 1px 2px 6px rgb(160, 160, 160);
+        object-fit: cover;
+    }
+    
+    .image3
+    {
+       height: 250px; 
+       width: 250px;
+       margin-bottom: 20px;
+       margin-left:15px;
+       border-radius: 20px 20px 20px 20px;
+       background-color: #FFFFFF;
+       padding: 8px 360px 8px 8px;
+       box-shadow: 1px 2px 6px rgb(190, 190, 190);
+       object-fit: cover;
+    }
+    
+    
+    .image1
+    {
+        
+        height: 250px;
+        width: 250px;
+       margin-bottom: 20px;
+       margin-left:15px;
+        border-radius: 20px 20px 20px 20px;
+        background-color: #FFFFFF;
+        padding: 8px 360px 8px 8px; 
+        box-shadow: 1px 2px 6px rgb(190, 190, 190);
+        object-fit: cover;    
+    }
+
+        .etoiles1
+    {
+        margin: 20px 0px 0px 290px;
+        float: right;
+        text-align: justify;
+        position: absolute;
+    }    
+
+    .etoiles
+    {
+        margin: 5px 0px 0px 290px;
+        float: right;
+        text-align: justify;
+        position: absolute;
+    }  
+    .LPP 
+    {
+        margin-right: 300px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        margin-top: 1px;
+        float: left;
+        font-size: 1.9em;
+    }
+
+    .colorN
+    {
+        font-size: 25px;
+
+    }
+
+    .etoiles1 p 
+    {
+        margin-top: 27px;
+        font-size: 27px;
+        margin-bottom: 95px;
+    }
+
+    .etoiles p 
+    {
+        margin-top: 7px;
+        font-size: 27px;
+        margin-bottom: 95px;
+    }
+
+}
+
 
 
 
@@ -568,11 +838,8 @@ a:hover
 {
     
     background-color: #FFFFFF;
-    /* padding: 20px; */
     border-radius: 20px;
     width: 1200px; 
-    /* height: 1600px; */
-    /* float: left; */
     display: flex; 
     flex-wrap: wrap;
     margin: 0px 50px 20px 0px;
@@ -586,6 +853,7 @@ a:hover
     padding-left: 20px;
     margin-top: 20px;
     margin-bottom: 1px;
+    font-size: 1.17em;
 }
 
 
@@ -695,11 +963,136 @@ margin: 110px 0px 0px 25px;
     object-fit: cover;
 }
 
+.dim
+{
+font-size: 13px;
+
+}
+
 @media screen and (max-width:768px)
 {
 
+    .AC
+    {
+    
+        
+        font-size: 1.9em;
+    }
 
+    
+    .image10
+    {
+        height: 220px;
+        width: 650px;
+        margin: 15px;
+        border-radius: 20px 20px 20px 20px;
+        background-color: #FFFFFF;
+        padding: 0px 0px 80px 0px;  
+        box-shadow: 1px 2px 6px rgb(190, 190, 190);
+        object-fit: cover;
+    }
+    
+    .image11
+    {
+        height: 220px;
+        width: 650px;
+        margin: 15px;
+        border-radius: 20px 20px 20px 20px;
+        background-color: #FFFFFF;
+        padding: 0px 0px 80px 0px;  
+        box-shadow: 1px 2px 6px rgb(190, 190, 190);
+        object-fit: cover;
+    }
+    
+    .image12
+    {
+        height: 220px;
+        width: 650px;
+        margin: 15px;
+        border-radius: 20px 20px 20px 20px;
+        background-color: #FFFFFF;
+        padding: 0px 0px 80px 0px;  
+        box-shadow: 1px 2px 6px rgb(190, 190, 190);
+        object-fit: cover;
+    }
+    
+    .image13
+    {
+        height: 220px;
+        width: 650px;
+        margin: 15px;
+        border-radius: 20px 20px 20px 20px;
+        background-color: #FFFFFF;
+        padding: 0px 0px 80px 0px;  
+        box-shadow: 1px 2px 6px rgb(190, 190, 190);
+        object-fit: cover;
+    }
+    
+    .image14
+    {
+        height: 220px;
+        width: 650px;
+        margin: 15px;
+        margin-right: 0px;
+        border-radius: 20px 20px 20px 20px;
+        background-color: #FFFFFF;
+        padding: 0px 0px 80px 0px;  
+        box-shadow: 1px 2px 6px rgb(190, 190, 190);
+        object-fit: cover;
+    }
+    
+    .image15
+    {
+        height: 220px;
+        width: 650px;
+        margin: 15px;
+        margin-right: 0px;
+        border-radius: 20px 20px 20px 20px;
+        background-color: #FFFFFF;
+        padding: 0px 0px 80px 0px;  
+        box-shadow: 1px 2px 6px rgb(190, 190, 190);
+        object-fit: cover;
+    }
 
+    .intituler10
+    {
+    position: absolute;
+    margin: 225px 0px 0px 30px;
+    
+    }
+    
+    .intituler11
+    {
+    position: absolute;
+    margin: 225px 0px 0px 30px;
+    }
+    .intituler12
+    {
+    position: absolute;
+    margin: 225px 0px 0px 30px;
+    }
+    .intituler13
+    {
+    position: absolute;
+    margin: 225px 0px 0px 30px;
+    }
+    
+    .intituler14
+    {
+    position: absolute;
+    margin: 225px 0px 0px 30px;
+    }
+    .intituler15
+    {
+    position: absolute;
+    margin: 225px 0px 0px 30px;
+    }
+        
+    .dim
+    {
+        font-size: 22px;
+
+    }
 
 
 }
@@ -743,11 +1136,17 @@ margin: 110px 0px 0px 25px;
     }
     .Footer
     {
-        width: 300px;
-        height: 500px;
-        padding-right:0px;
+        width: 640px;
+        height: 700px;
+        padding-right:30px;
     }
 
+    .Footer p
+    {
+        font-size: 1.2em;
+    
+    }
+    
 
 }
 
