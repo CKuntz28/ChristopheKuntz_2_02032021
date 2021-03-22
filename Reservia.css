@@ -228,7 +228,7 @@ a:hover
     margin-right: 10px;
 }
 
-.Text-info
+.TextInfo
 {
     display: flex;
     align-items: center;
@@ -236,7 +236,7 @@ a:hover
     margin-top: 10px;
 }
 
-.Text-info i
+.TextInfo i
 {  
     display: flex;
     justify-content: center;
@@ -347,10 +347,19 @@ a:hover
 
 /* -----------------------------------Section Herbergements--------------------------------- */
 
+.TEST
+{
+    display: flex; 
+    flex-wrap: wrap; 
+
+}
+
+
 .HEBERG
 {
     display: flex; 
-    flex-wrap: wrap;
+    flex-wrap: wrap;   
+    
 }
 
 
@@ -365,6 +374,8 @@ a:hover
     margin: 0px 40px 20px 0px;
  
 }
+
+
 
 .colorB
 {
@@ -496,7 +507,7 @@ a:hover
         background-color:  #F2F2F2;
         padding: 20px;
         border-radius: 20px;
-        width: 720px; 
+        width: 650px; 
         display: flex; 
         flex-wrap: wrap;
         margin: 0px 20px 20px 0px;
@@ -616,15 +627,14 @@ a:hover
 /* -----------------------------------Section Populaire--------------------------------- */
 
 
-
-#populaire
-
+.POP
 { 
     background-color: #F2F2F2;
     border-radius: 20px;
     padding: 20px;
     width: 310px; 
-    height: 443px;     
+    height: 443px;  
+    
 }
 
 
@@ -725,14 +735,15 @@ a:hover
 
 @media screen and (max-width:768px)
 {
-    #populaire
 
+    .POP
     { 
         background-color: #F2F2F2;
         border-radius: 20px;
         padding: 20px;
         width: 650px; 
-        height: 950px;     
+        height: 950px;  
+        
     }
 
     .image2
