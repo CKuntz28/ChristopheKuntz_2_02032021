@@ -13,15 +13,43 @@
     background-color: #FFFFFF;
     margin: 15px;
     margin-left: 30px;
-  
+    width: 1300px;
+    margin-block-start: 20px;
+    
 }
+
 
 .dimention
 {
     display: flex;
-
+    width: 1300px;
+    margin:30px;
+   
 } 
 
+
+
+@media screen and (max-width:768px)
+{
+    #bloc_page
+    {
+        width: 768px;
+    }   
+
+    .dimention
+    {
+        width: 768px; 
+        margin:1px;  
+    }
+}
+
+/* @media screen and (max-width:376px)
+{
+    #bloc_page
+    {
+        width: 100%;
+    }   
+} */
 
 
 
@@ -31,7 +59,7 @@
 {
     display: flex;
     align-items: center;
-    max-width: 1440px;
+    max-width: 1300px;
     
 }
 
@@ -113,6 +141,7 @@ a:hover
      {
         padding-right: 4rem;
         padding-left: 4rem;
+        margin-left: 80px;
      }
 
 
@@ -124,7 +153,7 @@ a:hover
 
     .IMG-logo
     {
-        margin-right: 435px;
+        margin-right: 420px;
         height: 60px;
     }
     .NAV1
@@ -155,6 +184,20 @@ a:hover
         margin-bottom: 35px;
         width: 100%;
     }
+
+}
+
+@media screen and (max-width:376px)
+{
+    .IMG-logo
+    {
+        margin-right: 350px;
+        height: 60px;
+    }
+
+
+
+
 
 }
 
@@ -298,14 +341,13 @@ a:hover
 {
     .filtre
     {
-        width: 700px;
-    
+        width: 750px;
     }
 
     .F
     {
         height: 50px;
-        margin: 20px 100px 20px 0;
+        margin: 20px 150px 20px 0;
         padding-right: 20px;
         border: 2px solid #f2f2f2;
         border-radius: 50px;
@@ -536,7 +578,7 @@ a:hover
         background-color:  #F2F2F2;
         padding: 20px;
         border-radius: 20px;
-        width: 650px; 
+        width: 730px; 
         display: flex; 
         flex-wrap: wrap;
         margin: 0px 20px 20px 0px;
@@ -571,7 +613,7 @@ a:hover
     .image4 
     {
         height: 230px;
-        width: 600px;
+        width: 680px;
         margin: 15px;
         border-radius: 20px 20px 20px 20px;
         background-color: #FFFFFF;
@@ -583,7 +625,7 @@ a:hover
     .image5 
     {
         height: 230px;
-        width: 600px;
+        width: 680px;
         margin: 15px;
         border-radius: 20px 20px 20px 20px;
         background-color: #FFFFFF;
@@ -594,7 +636,7 @@ a:hover
     .image6
     {
         height: 230px;
-        width: 600px;
+        width: 680px;
         margin: 15px;
         border-radius: 20px 20px 20px 20px;
         background-color: #FFFFFF;
@@ -606,7 +648,7 @@ a:hover
     .image7
     {
         height: 230px;
-        width: 600px;
+        width: 680px;
         margin: 15px;
         border-radius: 20px 20px 20px 20px;
         background-color: #FFFFFF;
@@ -618,7 +660,7 @@ a:hover
     .image8 
     {
         height: 230px;
-        width: 600px;
+        width: 680px;
         margin: 15px;
         border-radius: 20px 20px 20px 20px;
         background-color: #FFFFFF;
@@ -629,7 +671,7 @@ a:hover
     .image9
     {
         height: 230px;
-        width: 600px;
+        width: 680px;
         margin: 15px;
         border-radius: 20px 20px 20px 20px;
         background-color: #FFFFFF;
@@ -772,7 +814,7 @@ a:hover
         background-color: #F2F2F2;
         border-radius: 20px;
         padding: 20px;
-        width: 650px; 
+        width: 730px; 
         height: 950px;  
         
     }
@@ -780,7 +822,7 @@ a:hover
     .image2
     {
         height: 250px; 
-        width: 250px;
+        width: 320px;
         margin-bottom: 20px;
         margin-left:15px;
         border-radius: 20px 20px 20px 20px;
@@ -793,7 +835,7 @@ a:hover
     .image3
     {
        height: 250px; 
-       width: 250px;
+       width: 320px;
        margin-bottom: 20px;
        margin-left:15px;
        border-radius: 20px 20px 20px 20px;
@@ -808,7 +850,7 @@ a:hover
     {
         
         height: 250px;
-        width: 250px;
+        width: 320px;
        margin-bottom: 20px;
        margin-left:15px;
         border-radius: 20px 20px 20px 20px;
@@ -820,7 +862,7 @@ a:hover
 
         .etoiles1
     {
-        margin: 20px 0px 0px 290px;
+        margin: 20px 0px 0px 360px;
         float: right;
         text-align: justify;
         position: absolute;
@@ -828,7 +870,7 @@ a:hover
 
     .etoiles
     {
-        margin: 5px 0px 0px 290px;
+        margin: 5px 0px 0px 360px;
         float: right;
         text-align: justify;
         position: absolute;
@@ -1025,7 +1067,7 @@ font-size: 13px;
     .image10
     {
         height: 220px;
-        width: 650px;
+        width: 730px;
         margin: 15px;
         border-radius: 20px 20px 20px 20px;
         background-color: #FFFFFF;
@@ -1037,7 +1079,7 @@ font-size: 13px;
     .image11
     {
         height: 220px;
-        width: 650px;
+        width: 730px;
         margin: 15px;
         border-radius: 20px 20px 20px 20px;
         background-color: #FFFFFF;
@@ -1049,7 +1091,7 @@ font-size: 13px;
     .image12
     {
         height: 220px;
-        width: 650px;
+        width: 730px;
         margin: 15px;
         border-radius: 20px 20px 20px 20px;
         background-color: #FFFFFF;
@@ -1061,7 +1103,7 @@ font-size: 13px;
     .image13
     {
         height: 220px;
-        width: 650px;
+        width: 730px;
         margin: 15px;
         border-radius: 20px 20px 20px 20px;
         background-color: #FFFFFF;
@@ -1073,7 +1115,7 @@ font-size: 13px;
     .image14
     {
         height: 220px;
-        width: 650px;
+        width: 730px;
         margin: 15px;
         margin-right: 0px;
         border-radius: 20px 20px 20px 20px;
@@ -1086,7 +1128,7 @@ font-size: 13px;
     .image15
     {
         height: 220px;
-        width: 650px;
+        width: 730px;
         margin: 15px;
         margin-right: 0px;
         border-radius: 20px 20px 20px 20px;
@@ -1179,7 +1221,7 @@ font-size: 13px;
     }
     .Footer
     {
-        width: 640px;
+        width: 730px;
         height: 700px;
         padding-right:30px;
     }
