@@ -42,6 +42,21 @@
     }
 }
 
+@media screen and (max-width:375px)
+{
+    #bloc_page
+    {
+        width: 375px;
+    
+    }   
+
+    .dimension
+    {
+        width: 375px; 
+          
+    }
+}
+
 
 
 
@@ -184,11 +199,30 @@ a:hover
 {
     .IMG-logo
     {
-        margin-right: 350px;
+        margin-right: 0px;
         height: 60px;
     }
 
+    .Nav-Hebergement
+    {
+       padding-right: 1rem;
+       padding-left: 1rem;
+       margin-left: 0px;
+    }
 
+
+       .Nav-Hebergement:hover
+   {
+       border-top:none;
+       border-bottom: 3px #0065FC solid;
+   }
+   .trouve
+    {
+        font-size: 1.3em;
+        margin-top: 10px;
+        margin-bottom: 35px;
+        width: 90%;
+    }
 
 
 
@@ -404,6 +438,22 @@ a:hover
         border-radius: 0px 15px 15px 0px;
     }
      
+    @media screen and (max-width:375px)
+{ 
+    
+    .Recherche input 
+    {
+        height: 4.5em;
+        width: 14em;
+        border-left: 0em;
+        border-color: rgba(128, 128, 128, 0.151);
+        
+    }
+    .filtre
+    {
+        width: 375px;
+    }
+}
      
 }
 
@@ -686,6 +736,125 @@ a:hover
 
 }
 
+@media screen and (max-width:375px)
+{ 
+    .hebergement
+    {
+        background-color:  #F2F2F2;
+        padding: 20px;
+        border-radius: 20px;
+        width: 325px; 
+        display: flex; 
+        flex-wrap: wrap;
+        margin: 0px 0px 20px 0px;
+ 
+    }
+
+    .H
+    {
+        width: 81%;
+        padding-left: 20px;
+        margin-bottom: 1px;
+        margin-top: 1px;
+        font-size: 1.2em;
+    }
+    .image4 
+    {
+        height: 130px;
+        width: 290px;
+        margin: 15px;
+        border-radius: 20px 20px 20px 20px;
+        background-color: #FFFFFF;
+        padding: 8px 8px 80px 8px;  
+        box-shadow: 1px 2px 6px rgb(190, 190, 190);
+        object-fit: cover;
+    }
+    .image5 
+    {
+        height: 130px;
+        width: 290px;
+        margin: 15px;
+        border-radius: 20px 20px 20px 20px;
+        background-color: #FFFFFF;
+        padding: 8px 8px 80px 8px;  
+        box-shadow: 1px 2px 6px rgb(190, 190, 190);
+        object-fit: cover;
+    }
+    .image6 
+    {
+        height: 130px;
+        width: 290px;
+        margin: 15px;
+        border-radius: 20px 20px 20px 20px;
+        background-color: #FFFFFF;
+        padding: 8px 8px 80px 8px;  
+        box-shadow: 1px 2px 6px rgb(190, 190, 190);
+        object-fit: cover;
+    }
+    .image7
+    {
+        height: 130px;
+        width: 290px;
+        margin: 15px;
+        border-radius: 20px 20px 20px 20px;
+        background-color: #FFFFFF;
+        padding: 8px 8px 80px 8px;  
+        box-shadow: 1px 2px 6px rgb(190, 190, 190);
+        object-fit: cover;
+    }
+    .image8
+    {
+        height: 130px;
+        width: 290px;
+        margin: 15px;
+        border-radius: 20px 20px 20px 20px;
+        background-color: #FFFFFF;
+        padding: 8px 8px 80px 8px;  
+        box-shadow: 1px 2px 6px rgb(190, 190, 190);
+        object-fit: cover;
+    }
+    .image9
+    {
+        height: 130px;
+        width: 290px;
+        margin: 15px;
+        border-radius: 20px 20px 20px 20px;
+        background-color: #FFFFFF;
+        padding: 8px 8px 80px 8px;  
+        box-shadow: 1px 2px 6px rgb(190, 190, 190);
+        object-fit: cover;
+    }
+
+    .etoile-H
+{
+    position: absolute;
+    margin: 145px 0px 0px 25px;
+}
+
+.etoile-H p
+{
+    font-size: 0.85em;
+    margin-bottom: 10px;
+    width: 200px;
+}
+.colorB
+{
+    color: #0065FC;
+    font-size: 18px;   
+
+
+}
+
+    .colorG
+{
+    color: #F2F2F2;
+    font-size: 18px;   
+
+
+}
+
+}
+
 
 /* -----------------------------------Section Populaire--------------------------------- */
 
@@ -899,7 +1068,100 @@ a:hover
 
 }
 
+@media screen and (max-width:375px)
+{
 
+    .POP
+    { 
+        background-color: #F2F2F2;
+        border-radius: 20px;
+        padding: 20px;
+        width: 325px; 
+        height: 530px;  
+        
+    }
+    .LPP 
+    {
+        margin-right: 90px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        margin-top: 1px;
+        float: left;
+        font-size: 1.2em;
+    }
+
+    .image2
+    {
+        height: 120px; 
+        width: 120px;
+        margin-bottom: 20px;
+        margin-left:15px;
+        border-radius: 20px 20px 20px 20px;
+        background-color: #FFFFFF;
+        padding: 8px 170px 8px 8px;
+        box-shadow: 1px 2px 6px rgb(160, 160, 160);
+        object-fit: cover;
+    }
+    
+    .image3
+    {
+       height: 120px; 
+       width: 120px;
+       margin-bottom: 20px;
+       margin-left:15px;
+       border-radius: 20px 20px 20px 20px;
+       background-color: #FFFFFF;
+       padding: 8px 170px 8px 8px;
+       box-shadow: 1px 2px 6px rgb(190, 190, 190);
+       object-fit: cover;
+    }
+    
+    
+    .image1
+    {
+        
+        height: 120px;
+        width: 120px;
+       margin-bottom: 20px;
+       margin-left:15px;
+        border-radius: 20px 20px 20px 20px;
+        background-color: #FFFFFF;
+        padding: 8px 170px 8px 8px; 
+        box-shadow: 1px 2px 6px rgb(190, 190, 190);
+        object-fit: cover;    
+    }
+
+    .etoiles1
+    {
+        margin: 0px 0px 0px 150px;
+        float: right;
+        text-align: justify;
+        position: absolute;
+    }    
+
+    .etoiles
+    {
+        margin: 2px 0px 0px 150px;
+        float: right;
+        text-align: justify;
+        position: absolute;
+    }  
+    .etoiles p
+{
+    margin-top: 7px;
+    font-size: 14px;
+    margin-bottom: 45px;
+    width: 130px;
+}
+
+.etoiles1 p
+{
+    margin-top: 22px;
+    font-size: 14px;
+    margin-bottom: 45px;
+    width: 130px;
+}
+}   
 
 
 /* -----------------------------------Section Activites------------------------------------- */
@@ -1176,6 +1438,147 @@ font-size: 13px;
 
     }
 
+    @media screen and (max-width:375px)
+{
+
+    .AC
+    {
+    
+        
+        font-size: 1.2em;
+    }
+
+    .Activites
+{
+    
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    width: 374px; 
+    display: flex; 
+    flex-wrap: wrap;
+    margin: 0px 0px 20px 0px;
+     
+}
+
+
+.image10
+{
+    height: 120px;
+    width: 345px;
+    margin: 10px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #FFFFFF;
+    padding: 0px 0px 60px 0px;  
+    box-shadow: 1px 2px 6px rgb(190, 190, 190);
+    object-fit: cover;
+
+}
+.image11
+{
+    height: 120px;
+    width: 345px;
+    margin: 10px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #FFFFFF;
+    padding: 0px 0px 60px 0px;  
+    box-shadow: 1px 2px 6px rgb(190, 190, 190);
+    object-fit: cover;
+
+}
+.image12
+{
+    height: 120px;
+    width: 345px;
+    margin: 10px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #FFFFFF;
+    padding: 0px 0px 60px 0px;  
+    box-shadow: 1px 2px 6px rgb(190, 190, 190);
+    object-fit: cover;
+
+}
+.image13
+{
+    height: 120px;
+    width: 345px;
+    margin: 10px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #FFFFFF;
+    padding: 0px 0px 60px 0px;  
+    box-shadow: 1px 2px 6px rgb(190, 190, 190);
+    object-fit: cover;
+
+}
+.image14
+{
+    height: 120px;
+    width: 345px;
+    margin: 10px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #FFFFFF;
+    padding: 0px 0px 60px 0px;  
+    box-shadow: 1px 2px 6px rgb(190, 190, 190);
+    object-fit: cover;
+
+}
+.image15
+{
+    height: 120px;
+    width: 345px;
+    margin: 10px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #FFFFFF;
+    padding: 0px 0px 60px 0px;  
+    box-shadow: 1px 2px 6px rgb(190, 190, 190);
+    object-fit: cover;
+
+}
+
+.intituler10
+    {
+    position: absolute;
+    margin: 120px 0px 0px 30px;
+    
+    }
+    .intituler11
+    {
+    position: absolute;
+    margin: 120px 0px 0px 30px;
+    
+    }
+    .intituler12
+    {
+    position: absolute;
+    margin: 120px 0px 0px 30px;
+    
+    }
+    .intituler13
+    {
+    position: absolute;
+    margin: 120px 0px 0px 30px;
+    
+    }
+    .intituler14
+    {
+    position: absolute;
+    margin: 120px 0px 0px 30px;
+    
+    }
+    .intituler15
+    {
+    position: absolute;
+    margin: 120px 0px 0px 30px;
+    
+    }
+    
+    .dim
+    {
+        font-size: 16px;
+
+    }
+
+}
+
 
 }
 
@@ -1236,7 +1639,19 @@ font-size: 13px;
 
 }
 
+@media screen and (max-width:375px)
+{
+    .Footer
+    {
+        width: 360px;
+        height: 700px;
+        margin: auto;
 
+       
+    }
+ 
+
+}
 
 
 
