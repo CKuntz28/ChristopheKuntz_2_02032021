@@ -9,10 +9,9 @@
 
 #bloc_page {
 	background-color: #FFFFFF;
-	margin: 15px;
+	margin-left: 15px;
 	width: 1240px;
-	/* margin-block-start: 20px; */
-	/* margin-left: 30px;  */
+	
 }
 
 .dimension {
@@ -1472,6 +1471,7 @@ a:hover {
 @media screen and (orientation: landscape) and (max-width:812px) {
 	.dim {
 		font-size: 26px;
+		width: 500px;
 	}
 	.image10 {
 		height: 250px;
